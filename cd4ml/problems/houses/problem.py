@@ -25,7 +25,7 @@ class Problem(ProblemBase):
 
     @staticmethod
     def get_feature_set_constructor(feature_set_name):
-        #TODO: read folders
+        # TODO: read folders
         if feature_set_name == 'default':
             import cd4ml.problems.houses.features.feature_sets.default.feature_set as default_features
             return default_features.get_feature_set
